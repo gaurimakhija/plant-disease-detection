@@ -24,10 +24,10 @@ It provides pre-defined **80/20 train/test splits** that strictly respect the le
 from datasets import load_dataset
 
 # Load the dataset (default: color images)
-dataset = load_dataset("mohanty/PlantVillage", "color")
+dataset = load_dataset("gauri/PlantVillage", "color")
 ```
 
-For more details on configurations (grayscale, segmented) and advanced splitting, see the [Hugging Face Model Card](https://huggingface.co/datasets/mgauri/PlantVillage).
+For more details on configurations (grayscale, segmented) and advanced splitting, see the [Hugging Face Model Card](https://huggingface.co/datasets/gauri/PlantVillage).
 
 ---
 
@@ -75,20 +75,8 @@ To run the Python tools directly (using Python 2):
 python2 create_db.py --help
 ```
 
-## Citation
 
-If you use this dataset, please consider citing: 
-```bibtex
-@article{Mohanty_Hughes_Salathé_2016,
-    title   = {Using deep learning for image-based plant disease detection},
-    volume  = {7},
-    DOI     = {10.3389/fpls.2016.01419},
-    journal = {Frontiers in Plant Science},
-    author  = {Mohanty, Sharada P. and Hughes, David P. and Salathé, Marcel},
-    year    = {2016},
-    month   = {Sep}
-} 
-```
+
 
 ## Author
 
