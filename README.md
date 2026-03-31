@@ -7,11 +7,11 @@
 
 The **PlantVillage Dataset** is an open access repository of **54,306 images** of healthy and diseased plant leaves, collected to advance research in automated plant disease diagnosis. It covers **14 crop species** and **26 diseases**, making it one of the largest publicly available datasets for computer vision in agriculture.
 
-This dataset was introduced in the paper [**"Using computer vision for Image-Based Plant Disease Detection"**](https://public-pages-files-2025.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2016.01419/pdf) by Mohanty et al. (2016). The goal of this work is to enable the development of smartphone-based disease diagnosis systems to help farmers worldwide safeguard their yields.
+This dataset was introduced in the paper [**"Using computer vision for Image-Based Plant Disease Detection"**](https://public-pages-files-2025.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2016.01419/pdf) . The goal of this work is to enable the development of smartphone-based disease diagnosis systems to help farmers worldwide safeguard their yields.
 
 ## **Recommended: Usage via Hugging Face**
 
-The easiest way to use this dataset is via the [Hugging Face Hub](https://huggingface.co/datasets/mohanty/PlantVillage).
+The easiest way to use this dataset is via the [Hugging Face Hub](https://huggingface.co/datasets/gauri/PlantVillage).
 
 **Installation:**
 ```bash
@@ -27,7 +27,7 @@ from datasets import load_dataset
 dataset = load_dataset("mohanty/PlantVillage", "color")
 ```
 
-For more details on configurations (grayscale, segmented) and advanced splitting, see the [Hugging Face Model Card](https://huggingface.co/datasets/mohanty/PlantVillage).
+For more details on configurations (grayscale, segmented) and advanced splitting, see the [Hugging Face Model Card](https://huggingface.co/datasets/mgauri/PlantVillage).
 
 ---
 
